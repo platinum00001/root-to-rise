@@ -1,6 +1,6 @@
 # Root to Rise — static site
 
-Live: https://platinum00001.github.io/root-to-rise/ (the older Grok app-builder copy at roottorisema.grok.me is separate and is NOT updated by this repo)
+Live: https://roottorisema.org/ (the older Grok app-builder copy at roottorisema.grok.me is separate and is NOT updated by this repo)
 
 Public pages must never name individuals (anonymity policy). Leadership wording: "Led by people in long-term recovery and licensed counselors."
 
@@ -18,7 +18,7 @@ FAQ answers used by the "Ask us" chat helper are in `assets/rtr-faq.js` (keep th
 
 ## Benefits navigator (v1 app) — `navigator/`
 
-Live: https://platinum00001.github.io/root-to-rise/navigator/
+Live: https://roottorisema.org/navigator/
 
 Benefits eligibility checker, resource finder, partner offers and optional member accounts (shared Supabase project,
 tables `members`, `eligibility_answers`, `notification_consent`, `offer_signups`, `email_optin`; RLS on).

@@ -3,7 +3,7 @@
 A calm, accessible recovery-community website for **Inspiration Is Everywhere / Root to Rise Recovery Cafe**, serving **Falmouth & Mashpee, MA** and **Nashua, NH**.
 
 - Contact: roottorisema@gmail.com · 603-721-2088
-- Live: https://platinum00001.github.io/root-to-rise/navigator/ (GitHub Pages, served from the `navigator/` folder of this repo) · Content editor: `/navigator/admin/`
+- Live: https://roottorisema.org/navigator/ (GitHub Pages, served from the `navigator/` folder of this repo) · Content editor: `/navigator/admin/`
 - Repo: https://github.com/platinum00001/root-to-rise (the main site at the repo root is the separate no-login v2 site)
 
 ## What's in it
@@ -45,7 +45,7 @@ python3 -m http.server 8080
 (Opening the HTML file directly with `file://` won't load the JSON data — use a local server.)
 
 ## Edit content without code (/admin)
-1. Go to `https://<your-site>/admin/` (https://platinum00001.github.io/root-to-rise/navigator/admin/).
+1. Go to `https://<your-site>/admin/` (https://roottorisema.org/navigator/admin/).
 2. Sign in with GitHub (you need write access to the `root-to-rise` repo — ask the owner to add you as a collaborator). Until the OAuth helper is set up, choose **"Sign in with token"** and paste a GitHub fine-grained personal access token with *Contents: read & write* on this repo. See `docs/DEPLOY-GUIDE.md`.
 3. Pick a collection: **Resources**, **Eligibility checker** (extra questions and pointers), **Partner offers**, or **Page text**. Income limits are updated through the Navigator data files instead, so that every number keeps its official source (see `docs/DATA-FORMAT.md` §1). Edit and press **Save/Publish**.
 4. Sveltia commits the change to GitHub; GitHub Pages republishes automatically in about a minute.

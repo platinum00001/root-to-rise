@@ -11,7 +11,7 @@ backend:
 
 media_folder: navigator/images/uploads
 public_folder: /root-to-rise/navigator/images/uploads
-site_url: https://platinum00001.github.io/root-to-rise/navigator/
+site_url: https://roottorisema.org/navigator/
 
 collections:
   # ------------------------------------------------------------------ RESOURCES

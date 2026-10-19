@@ -7,5 +7,5 @@
 window.RTR_CONFIG = {
   SUPABASE_URL: "https://oiousqgzqcjanikglkxl.supabase.co",
   SUPABASE_ANON_KEY: "sb_publishable_IJHa5taHcttV2DSZq45fWQ_bVbRDbA2",
-  SITE_URL: "https://platinum00001.github.io/root-to-rise/navigator/"
+  SITE_URL: "https://roottorisema.org/navigator/"
 };
