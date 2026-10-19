@@ -39,7 +39,9 @@
       if (!cfg.phone) { el.hidden = true; return; }
       var a = el.querySelector('a') || el;
       a.textContent = cfg.phone;
-      if (a.tagName === 'A') a.href = 'tel:' + cfg.phone.replace(/[^\d+]/g, '');
+      var tel = cfg.phone.replace(/[^\d+]/g, '');
+      if (/^\d{10}$/.test(tel)) tel = '+1' + tel; /* US number -> E.164 */
+      if (a.tagName === 'A') a.href = 'tel:' + tel;
       el.hidden = false;
     });
     $$('[data-rtr-email]').forEach(function (el) {

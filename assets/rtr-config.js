@@ -14,7 +14,7 @@ var RTR_SQUARE_DONATE_URL = '';
 
 /* Public phone number shown in the footer and Contact page, e.g. '508-555-0123'.
  * Leave '' to hide it. */
-var RTR_PHONE = '';
+var RTR_PHONE = '603-721-2088';
 
 /* Public email shown in the footer and Contact page. Leave '' to hide it. */
 var RTR_EMAIL = 'roottorisema@gmail.com';
