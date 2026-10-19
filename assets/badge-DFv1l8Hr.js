@@ -1,1 +1,0 @@
-import{a as e,i as t}from"./button-D_I7E2J0.js";var n=e();function r({className:e,children:r}){return(0,n.jsx)(`span`,{className:t(`inline-flex items-center rounded-full border border-sand bg-paper px-3 py-1 text-xs font-medium tracking-wide text-sage uppercase`,e),children:r})}export{r as t};

@@ -1,6 +1,6 @@
 # Root to Rise — Deploy guide (GitHub + Vercel + Supabase + Sveltia CMS)
 
-> **Current deployment (Oct 2026):** GitHub Pages, not Vercel. Live at https://platinum00001.github.io/root-to-rise/navigator/ from the `navigator/` folder of `platinum00001/root-to-rise` (main, root). Supabase project: `james-sites` (shared). Wherever this guide says `root-to-rise.vercel.app`, use `platinum00001.github.io/root-to-rise/navigator` instead; for the Sveltia OAuth helper, `ALLOWED_DOMAINS` = `platinum00001.github.io`.
+> **Current deployment (Oct 2026):** GitHub Pages, not Vercel. Live at https://platinum00001.github.io/root-to-rise/navigator/ from the `navigator/` folder of `platinum00001/root-to-rise` (main, root). the shared Supabase project. Wherever this guide says `root-to-rise.vercel.app`, use `platinum00001.github.io/root-to-rise/navigator` instead; for the Sveltia OAuth helper, `ALLOWED_DOMAINS` = `platinum00001.github.io`.
 
 This site is plain static files. No build step, no server code. Total time for a first-time setup: ~30–45 minutes.
 
